@@ -1,0 +1,4 @@
+- `yarn` to instal the dependencies
+- `yarn workspace @example/lib build` to build the `@example/lib` package 
+  - If you were to remove the `packages/lib/dist` folder, you would not be able to import the `@example/lib` package in the `@example/node-app` package
+- `yarn workspace @example/node-app serve` to start the `@example/node-app` package
