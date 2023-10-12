@@ -15,8 +15,6 @@
         "forceConsistentCasingInFileNames": true,
         "lib": ["ES2022"],
         "types": ["vitest/globals"],
-        "declarationMap": true,
-        "composite": true,
         "paths": {
             "@exmaple/lib": ["./packages/example/src"],
             "@exmaple/lib/*": ["./packages/example/src/*"],
